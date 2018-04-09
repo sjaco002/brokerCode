@@ -29,12 +29,12 @@ for line in results:
                 if (users < minUsers):
                         minUsers = users
 
-#print "executions:" + str(executions)
-#print "requests:" + str(totalPolls)
-#print "max succeeded:" + str(maxUsers)
-#print "min succeeded:" + str(minUsers)
-#print "total request times:" + str(sumation)
+print "executions:" + str(executions)
+print "requests:" + str(totalPolls)
+print "max succeeded:" + str(maxUsers)
+print "min succeeded:" + str(minUsers)
+print "total request times:" + str(sumation)
 print "polling user average:" + str(totalPolls/executions)
-#print "average total time:" + str(sumation/executions)
-#print "avg user time:" + str(sumation/totalPolls)
-#print "max user time:" + str(maxi)
+print "average total time:" + str(sumation/executions)
+print "avg user time:" + str(sumation/totalPolls)
+print "max user time:" + str(maxi)
